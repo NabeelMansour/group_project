@@ -39,12 +39,7 @@ ul li a {
   margin-right: 1rem;
   font-size: 20px;
   text-transform: capitalize;
-}
-
-a {
   box-shadow: inset 0 0 0 0 #5cd990;
-  color: inherit;
-  margin: 0 -.25rem;
   padding: 0 .55rem;
   transition: .25s ease;
 }
@@ -57,14 +52,15 @@ a:hover {
 
 /* main */
 
-main {
+.form-container {
   min-height: calc(100vh - 5rem);
+  padding-top: 7rem;
 }
 
 .container h1 {
   border-bottom: .2rem solid #18BD5B;
   max-width: 315px;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
 }
 
 .form {
@@ -72,7 +68,6 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 7rem;
 }
 
 .form-items {
@@ -111,7 +106,6 @@ textarea {
   outline-style: solid;
   text-align: center;
   transition: 0.35s all ease-in;
-
 }
 
 .btn:hover {
