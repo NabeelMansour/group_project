@@ -8,25 +8,24 @@ body {
   background: #8d8d8d;
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  width: 100vw;
-  min-height: 100vh;
 }
 
 .container {
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* header */
 
 .header {
   background: #2dca4b;
-  padding: 2rem;
+  padding: 2rem 0;
+  height: 5rem;
 }
 
 nav ul {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
   margin: 0 auto;
 }
 
@@ -59,14 +58,12 @@ a:hover {
 /* main */
 
 main {
-  width: 90vw;
-  /* max-width: 1200px; */
-  margin: 0 auto;
+  min-height: calc(100vh - 5rem);
 }
 
 .container h1 {
   border-bottom: .2rem solid #18BD5B;
-  max-width: 310px;
+  max-width: 315px;
   margin-top: 5rem;
 }
 
