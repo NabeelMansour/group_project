@@ -112,3 +112,54 @@ textarea {
   outline-offset: 7px;
   cursor: pointer;
 }
+
+
+/* css:about us */
+
+.bodyy{
+  background: #8d8d8d;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  /* width: 100vw;
+  min-height: 100vh; */
+  margin-left:40px;
+  color: #fff ;
+  line-height: 1.5;
+  color: #2dca4b;
+}
+
+.about-product{
+  text-align: center;
+  color: #2dca4b;
+  font-size: 40px;
+  
+}
+
+.about{
+color:#2dca4b;
+margin-top: 70px;
+}
+
+.product-h{
+color:  #2dca4b;
+margin-top: 90px;
+}
+
+
+nav{
+margin-bottom: 70px;
+}
+
+.btn:hover{
+outline-offset: 7px;
+cursor: pointer;
+background-color: #C92CAD;
+}
+
+.btn{
+margin-left: 17.5cm;
+margin-top:80px;
+border-radius: 20px;
+}
+
+
