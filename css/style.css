@@ -150,13 +150,13 @@ nav{
 margin-bottom: 70px;
 }
 
-.btnn:hover{
+.btn:hover{
 outline-offset: 7px;
 cursor: pointer;
 background-color: #C92CAD;
 }
 
-.btnn{
+.btn{
 margin-left: 17.5cm;
 margin-top:80px;
 border-radius: 20px;
