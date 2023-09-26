@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --bg-color: #8d8d8d;
+  --nav-bg: #666565;
+}
+
 body {
-  background: #8d8d8d;
+  background: var(--bg-color);
   color: #fff;
   font-family: 'Roboto', sans-serif;
 }
@@ -21,9 +26,10 @@ body {
   background: #2dca4b;
   padding: 2rem 0;
   height: 5rem;
+  position: relative;
 }
 
-nav ul {
+.header-list {
   display: flex;
   justify-content: flex-end;
   margin: 0 auto;
@@ -48,6 +54,8 @@ a:hover {
   color: #d5d3d3;
   box-shadow: 0 2px 0 0 currentcolor;
 }
+
+
 
 
 /* main */
@@ -111,4 +119,57 @@ textarea {
 .btn:hover {
   outline-offset: 7px;
   cursor: pointer;
+}
+
+@media screen and (width <=668px) {
+  .container {
+    max-width: 90vw;
+    padding-top: 4rem;
+  }
+
+  .form-container h1 {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .form-items {
+    max-width: 90vw;
+    margin: 0 auto;
+  }
+
+  .header-list {
+    background: var(--nav-bg);
+    min-width: 100vw;
+    min-height: 100vh;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .hamburger-menu {
+    position: absolute;
+    top: 20px;
+    right:30px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (width >=669px) {
+  nav {
+    visibility: visible;
+  }
+
+  .fa-bars {
+    visibility: hidden;
+  }
 }
