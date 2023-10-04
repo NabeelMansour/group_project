@@ -33,6 +33,7 @@ body {
   display: flex;
   justify-content: flex-end;
   margin: 0 auto;
+  transition: all .5s linear;
 }
 
 ul li {
@@ -68,7 +69,6 @@ a:hover {
 .container h1 {
   border-bottom: .2rem solid #18BD5B;
   max-width: 315px;
-  /* margin-top: 5rem; */
 }
 
 .form {
@@ -158,7 +158,7 @@ textarea {
   .hamburger-menu {
     position: absolute;
     top: 20px;
-    right:30px;
+    right: 30px;
     font-size: 30px;
     cursor: pointer;
   }
